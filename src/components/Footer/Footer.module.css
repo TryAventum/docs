@@ -1,0 +1,11 @@
+.Wrapper {
+  box-shadow: 0 1px 15px rgba(27, 31, 35, 0.15),
+    0 0 1px rgba(106, 115, 125, 0.35);
+  font-family: "Oxanium";
+  word-break: break-word;
+  background: linear-gradient(
+    225deg,
+    rgba(255, 119, 119, 0.2528361686471463) 0%,
+    rgba(255, 255, 255, 1) 78%
+  );
+}

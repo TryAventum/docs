@@ -1,0 +1,11 @@
+.Wrapper{
+    background-image: url(/img/bubble.svg), url(/img/bubble.svg);
+    background-attachment: fixed;
+    background-size: 40%, 60%;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position-x: -20%, 150%;
+    background-position-y: 30%, 60%;
+    font-family: 'Oxanium';
+    word-break: break-word;
+}

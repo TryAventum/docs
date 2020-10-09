@@ -1,0 +1,15 @@
+.innerWrapper{
+    @apply text-gray-600;
+}
+
+.innerWrapper ul{
+    @apply mb-4 ml-3;
+}
+
+.activeSection{
+    @apply underline text-brand-red;
+}
+
+.innerWrapper a:hover {
+    @apply underline text-brand-red;
+}

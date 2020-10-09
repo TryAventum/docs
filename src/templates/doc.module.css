@@ -1,0 +1,36 @@
+/* SIDEBAR HIDDEN STATE */
+.Hidden {
+  transition: 200ms;
+  transform: translateX(-100%);
+}
+/* SIDEBAR VISIBLE STATE */
+.Visible {
+  transition: 200ms;
+  transform: translateX(0);
+}
+
+.MarkDownWrapper p{
+  overflow: auto;
+}
+
+.hScreen80{
+  height: 80vh;
+}
+
+.responsiveHScreen80{
+  height: 100%;
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+  .responsiveHScreen80{
+    height: 80vh;
+  }
+  .markShell{
+    max-width: 60%;
+  }
+
+  .Top5Rem{
+    top: 5rem;
+  }
+}

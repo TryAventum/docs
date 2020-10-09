@@ -1,0 +1,10 @@
+---
+title: Options
+date: "2020-03-22"
+order: 155
+---
+
+## Login Providers
+
+- Get Facebook Client ID and Facebook Client Secret from [Facebook Developers](https://developers.facebook.com/).
+- Get Google Client ID and Google Client Secret from [Google Developers Console](https://console.developers.google.com/).

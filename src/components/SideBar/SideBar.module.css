@@ -1,0 +1,10 @@
+.wrapper ul{
+    @apply mb-4 ml-4 text-gray-600;
+}
+.wrapper h3{
+    @apply mb-2 ml-1 text-gray-700;
+}
+
+.wrapper a:hover {
+    @apply underline text-brand-red;
+}
