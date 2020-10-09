@@ -7,7 +7,7 @@
 module.exports = {
   siteMetadata: {
     title: `Aventum`,
-    tagline: `Backend visual builder, it is the time for some relax!, Aventum allows you to build really advanced and complex contents insanely quickly!`
+    tagline: `Headless CMS, it is the time for some relax!`,
   },
   plugins: [
     `gatsby-plugin-sharp`,
@@ -47,6 +47,6 @@ module.exports = {
     },
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-postcss`,
-    `gatsby-plugin-breadcrumb`
+    `gatsby-plugin-breadcrumb`,
   ],
 }
