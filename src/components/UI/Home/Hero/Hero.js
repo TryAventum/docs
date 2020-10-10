@@ -25,8 +25,12 @@ export default function Hero() {
         <div className="w-1/2 md:block animated  fadeInDown">
           <img src="/img/Aventum_Red_Logo.svg" alt="Aventum Logo" />
         </div>
-        <h2 className="text-3xl mb-4 animated bounceIn delay-1s">
+        <h1 className="text-3xl my-4 animated bounceIn delay-1s">
           {`${data.site.siteMetadata.tagline}`}
+        </h1>
+        <h2 className="text-2xl mb-5 animated bounceIn delay-1s">
+          Aventum allows you to build really advanced and complex contents
+          insanely quickly!
         </h2>
         <div className="flex items-center">
           <Button

@@ -11,13 +11,13 @@ export default ({ data }) => {
     <Layout wrapperClass={classes.Wrapper}>
       <div className={`flex flex-col items-center`}>
         <Hero />
-        <Features />
         <Block
           title="What is Aventum?"
-          content="Aventum is high performance and speeds open source Headless CMS, or you can call it API visual builder or Headless CMS visual builder because it is content agnostic, create your own content, no matter how complex it was!"
+          content="Aventum is a high performance and speeds open-source Headless CMS, or you can call it API visual builder, backend visual builder, or Headless CMS visual builder because it is content-agnostic, create your content, no matter how complex it was, and manage it easily!"
           img="/img/undraw_feeling_proud_qne1.svg"
           id="what"
         />
+        <Features />
         <Block
           title="Why Aventum?"
           imageAlinement="right"
