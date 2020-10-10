@@ -29,8 +29,8 @@ export default function Hero() {
           {`${data.site.siteMetadata.tagline}`}
         </h1>
         <h2 className="text-2xl mb-5 animated bounceIn delay-1s">
-          Aventum allows you to build really advanced and complex contents
-          insanely quickly!
+          Aventum allows you to build advanced and complex content insanely
+          quickly!
         </h2>
         <div className="flex items-center">
           <Button
