@@ -9,28 +9,32 @@
   transform: translateX(0);
 }
 
-.MarkDownWrapper p{
+.MarkDownWrapper p {
   overflow: auto;
 }
 
-.hScreen80{
+.hScreen80 {
   height: 80vh;
 }
 
-.responsiveHScreen80{
+.responsiveHScreen80 {
   height: 100%;
+}
+
+.maxHscreen50 {
+  height: 50vh;
 }
 
 /* Medium (md) */
 @media (min-width: 768px) {
-  .responsiveHScreen80{
+  .responsiveHScreen80 {
     height: 80vh;
   }
-  .markShell{
+  .markShell {
     max-width: 60%;
   }
 
-  .Top5Rem{
+  .Top5Rem {
     top: 5rem;
   }
 }

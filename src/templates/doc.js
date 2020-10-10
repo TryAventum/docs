@@ -112,6 +112,14 @@ export default ({ data, pageContext, location }) => {
           <h1 className="mb-4 md:block font-bold text-4xl">
             {post.frontmatter.title}
           </h1>
+          <TableOfContents
+            wrapperClass={`md:hidden ${classes.Top5Rem +
+              " " +
+              classes.maxHscreen50} overflow-auto max-h-screen`}
+            pageLinks={pageLinks}
+            slug={slug}
+          />
+          <hr className="md:hidden my-5" />
           <div className={`${classes.MarkDownWrapper} markdown-body`}>
             <MDXProvider components={components}>
               <MDXRenderer>{post.body}</MDXRenderer>
@@ -119,7 +127,7 @@ export default ({ data, pageContext, location }) => {
           </div>
           <NextAndPrev next={next} prev={prev} />
         </div>
-        <div className="order-1 mb-8 md:order-2 md:w-1/5">
+        <div className="hidden md:block order-1 mb-8 md:order-2 md:w-1/5">
           <TableOfContents
             wrapperClass={`md:sticky ${classes.Top5Rem +
               " " +
