@@ -119,7 +119,7 @@ export default ({ data, pageContext, location }) => {
             pageLinks={pageLinks}
             slug={slug}
           />
-          <hr className="md:hidden my-5" />
+          {pageLinks && <hr className="md:hidden my-5" />}
           <div className={`${classes.MarkDownWrapper} markdown-body`}>
             <MDXProvider components={components}>
               <MDXRenderer>{post.body}</MDXRenderer>
