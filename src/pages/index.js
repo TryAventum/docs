@@ -9,7 +9,7 @@ import classes from "./index.module.css"
 export default ({ data }) => {
   return (
     <Layout wrapperClass={classes.Wrapper}>
-      <div className={`flex flex-col items-center`}>
+      <div className={`flex flex-col items-center w-full`}>
         <Hero />
         <Block
           title="What is Aventum?"
