@@ -9,3 +9,11 @@ docker build -t aventum-gatsby .
 
 docker run -it -p 8000:8000 -v /app/node_modules -v ${pwd}:/app -e CHOKIDAR_USEPOLLING=true aventum-gatsby
 ```
+
+To run this application using docker on WSL2 you can run:
+
+```shell
+docker build -t aventum-gatsby .
+
+docker run -it -p 8000:8000 -v /app/node_modules -v $PWD:/app -e CHOKIDAR_USEPOLLING=true aventum-gatsby
+```
