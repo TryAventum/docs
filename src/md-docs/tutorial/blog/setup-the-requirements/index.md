@@ -14,7 +14,7 @@ We will use [PostgreSQL](https://www.postgresql.org/) for our example, however, 
 
 ## Node.js
 
-Make sure you have [Node.js](https://nodejs.org/) installed on your system.
+Make sure you have [Node.js](https://nodejs.org/)(LTS version is recommended) installed on your system.
 
 ## Aventum CLI
 

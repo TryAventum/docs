@@ -10,7 +10,7 @@ You need the following to get Aventum up and running:
 
 > If you have Docker then you will not need any of the following, for more info please check the [Installation](./installation/) section!
 
-1. [Node.js](https://nodejs.org/)
+1. [Node.js](https://nodejs.org/)(LTS version is recommended).
 2. [PostgreSQL](https://www.postgresql.org/) or [MongoDB](https://www.mongodb.com/) or [MariaDB](https://mariadb.org/) or [MySQL](https://www.mysql.com/).
 3. [Redis](https://redis.io/)
 
