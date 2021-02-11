@@ -14,7 +14,7 @@ We try to make the update process if you just use Node.js or if you use DevOps, 
 
 1. Shut down the server.
 2. Run `git pull` or manually update the files by copy and paste the new files over the old ones and allow to overwrite.
-3. Run `node .` Aventum will detect the update and try to update itself automatically.
+3. Run `node .` Aventum will detect the update and try to update itself automatically!
 
 ### Docker & Kubernetes
 
