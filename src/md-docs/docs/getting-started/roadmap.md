@@ -5,8 +5,11 @@ order: 5
 ---
 
 - [x] Support other type of databases.
-- [ ] Enhance the styles and make the dashboard responsive.
+- [ ] Enhance the styles and make the dashboard more responsive.
 - [x] Using Tailwind only as a CSS library and remove Semantic UI.
 - [ ] Adding more hooks.
-- [ ] Automatic Update Functionality.
-- [ ] Plugin repository to easily browse available plugins.
+- [ ] GraphQL.
+- [x] Automatic update functionality.
+- [ ] Extensions automatic update functionality.
+- [ ] Helm chart.
+- [ ] Extension repository to easily browse available extensions.
